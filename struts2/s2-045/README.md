@@ -4,7 +4,7 @@
 
 Affected Version: Struts 2.3.5 - Struts 2.3.31, Struts 2.5 - Struts 2.5.10
 
-References: 
+References:
 
  - http://struts.apache.org/docs/s2-045.html
  - https://nsfocusglobal.com/apache-struts2-remote-code-execution-vulnerability-s2-045/
@@ -14,7 +14,7 @@ References:
 Execute the following command to start the Struts2 2.3.30：
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 After the container is running, visit `http://your-ip:8080` that you can see an example of the upload page.

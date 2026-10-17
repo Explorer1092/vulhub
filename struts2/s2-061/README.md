@@ -2,7 +2,7 @@
 
 [中文版本(Chinese version)](README.zh-cn.md)
 
-In the versions prior to Struts 2.5.25, when evaluated on raw user input in tag attributes, may lead to remote code execution. 
+In the versions prior to Struts 2.5.25, when evaluated on raw user input in tag attributes, may lead to remote code execution.
 
 This vulnerability is the bypass of the OGNL sandbox, which enhance after S2-059.
 
@@ -18,7 +18,7 @@ References:
 Start a Struts 2.5.25 server:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 After the environment is started, visit `http://your-ip:8080/` and you will see a simple page. It is just a copy application of the [S2-059](https://github.com/vulhub/vulhub/tree/master/struts2/s2-059), except for the different Struts versions.
